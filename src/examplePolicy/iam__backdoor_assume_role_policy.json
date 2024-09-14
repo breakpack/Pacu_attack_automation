@@ -1,0 +1,29 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Sid": "VisualEditor1",
+      "Effect": "Allow",
+      "Action": "s3:*",
+      "Resource": "arn:aws:s3:::cybr-pacu-lab-example"
+    },
+    {
+      "Sid": "Statement1",
+      "Effect": "Allow",
+      "Action": [
+        "iam:Get*",
+        "iam:List*",
+        "iam:Put*",
+        "iam:AttachRolePolicy",
+        "iam:SimulateCustomPolicy",
+        "iam:SimulatePrincipalPolicy",
+        "s3:ListBucket",
+        "iam:PassRole",
+        "iam:UpdateAssumeRolePolicy",
+        "ec2:DescribeInstances",
+        "sts:AssumeRole"
+      ],
+      "Resource": "*"
+    }
+  ]
+}

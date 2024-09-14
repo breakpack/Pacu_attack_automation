@@ -1,0 +1,182 @@
+{
+    "Events": [
+        {
+            "EventId": "8944fb98-da1d-4c0b-afc4-9ab3b5933625",
+            "EventName": "UpdateAssumeRolePolicy",
+            "ReadOnly": "false",
+            "AccessKeyId": "AKIA47CRYYD47X7KLSM6",
+            "EventTime": 1726205629.0,
+            "EventSource": "iam.amazonaws.com",
+            "Username": "smtpk",
+            "Resources": [
+                {
+                    "ResourceType": "AWS::IAM::Role",
+                    "ResourceName": "testrole"
+                }
+            ],
+            "CloudTrailEvent": "{\"eventVersion\":\"1.09\",\"userIdentity\":{\"type\":\"IAMUser\",\"principalId\":\"AIDA47CRYYD4WJZ3OBVPB\",\"arn\":\"arn:aws:iam::891377205497:user/smtpk\",\"accountId\":\"891377205497\",\"accessKeyId\":\"AKIA47CRYYD47X7KLSM6\",\"userName\":\"smtpk\"},\"eventTime\":\"2024-09-13T05:33:49Z\",\"eventSource\":\"iam.amazonaws.com\",\"eventName\":\"UpdateAssumeRolePolicy\",\"awsRegion\":\"us-east-1\",\"sourceIPAddress\":\"211.212.221.147\",\"userAgent\":\"Boto3/1.35.15 md/Botocore#1.35.15 ua/2.0 os/macos#24.0.0 md/arch#arm64 lang/python#3.12.4 md/pyimpl#CPython cfg/retry-mode#adaptive Botocore/1.35.15\",\"requestParameters\":{\"roleName\":\"testrole\",\"policyDocument\":\"{\\\"Version\\\": \\\"2012-10-17\\\", \\\"Statement\\\": [{\\\"Effect\\\": \\\"Allow\\\", \\\"Principal\\\": {\\\"AWS\\\": [\\\"arn:aws:iam::891377205497:root\\\", \\\"arn:aws:iam::891377205497:user/smtpk\\\"]}, \\\"Action\\\": \\\"sts:AssumeRole\\\"}]}\"},\"responseElements\":null,\"requestID\":\"3a3142a2-8387-4c56-84a4-e040c3b12ece\",\"eventID\":\"8944fb98-da1d-4c0b-afc4-9ab3b5933625\",\"readOnly\":false,\"eventType\":\"AwsApiCall\",\"managementEvent\":true,\"recipientAccountId\":\"891377205497\",\"eventCategory\":\"Management\",\"tlsDetails\":{\"tlsVersion\":\"TLSv1.3\",\"cipherSuite\":\"TLS_AES_128_GCM_SHA256\",\"clientProvidedHostHeader\":\"iam.amazonaws.com\"}}"
+        },
+        {
+            "EventId": "1a6ba98c-67b1-42db-b3db-c3087930eda8",
+            "EventName": "UpdateAssumeRolePolicy",
+            "ReadOnly": "false",
+            "AccessKeyId": "AKIA47CRYYD47X7KLSM6",
+            "EventTime": 1726205628.0,
+            "EventSource": "iam.amazonaws.com",
+            "Username": "smtpk",
+            "Resources": [
+                {
+                    "ResourceType": "AWS::IAM::Role",
+                    "ResourceName": "AWSServiceRoleForTrustedAdvisor"
+                }
+            ],
+            "CloudTrailEvent": "{\"eventVersion\":\"1.09\",\"userIdentity\":{\"type\":\"IAMUser\",\"principalId\":\"AIDA47CRYYD4WJZ3OBVPB\",\"arn\":\"arn:aws:iam::891377205497:user/smtpk\",\"accountId\":\"891377205497\",\"accessKeyId\":\"AKIA47CRYYD47X7KLSM6\",\"userName\":\"smtpk\"},\"eventTime\":\"2024-09-13T05:33:48Z\",\"eventSource\":\"iam.amazonaws.com\",\"eventName\":\"UpdateAssumeRolePolicy\",\"awsRegion\":\"us-east-1\",\"sourceIPAddress\":\"211.212.221.147\",\"userAgent\":\"Boto3/1.35.15 md/Botocore#1.35.15 ua/2.0 os/macos#24.0.0 md/arch#arm64 lang/python#3.12.4 md/pyimpl#CPython cfg/retry-mode#adaptive Botocore/1.35.15\",\"errorCode\":\"UnmodifiableEntityException\",\"errorMessage\":\"Cannot perform the operation on the protected role 'AWSServiceRoleForTrustedAdvisor' - this role is only modifiable by AWS\",\"requestParameters\":{\"roleName\":\"AWSServiceRoleForTrustedAdvisor\",\"policyDocument\":\"{\\\"Version\\\": \\\"2012-10-17\\\", \\\"Statement\\\": [{\\\"Effect\\\": \\\"Allow\\\", \\\"Principal\\\": {\\\"Service\\\": \\\"trustedadvisor.amazonaws.com\\\", \\\"AWS\\\": \\\"arn:aws:iam::891377205497:user/smtpk\\\"}, \\\"Action\\\": \\\"sts:AssumeRole\\\"}]}\"},\"responseElements\":null,\"requestID\":\"3cf5b93c-c88f-43f0-81a9-695b82a315ce\",\"eventID\":\"1a6ba98c-67b1-42db-b3db-c3087930eda8\",\"readOnly\":false,\"eventType\":\"AwsApiCall\",\"managementEvent\":true,\"recipientAccountId\":\"891377205497\",\"eventCategory\":\"Management\",\"tlsDetails\":{\"tlsVersion\":\"TLSv1.3\",\"cipherSuite\":\"TLS_AES_128_GCM_SHA256\",\"clientProvidedHostHeader\":\"iam.amazonaws.com\"}}"
+        },
+        {
+            "EventId": "ecad0420-4877-4785-be4c-441c246bff28",
+            "EventName": "GetRole",
+            "ReadOnly": "true",
+            "AccessKeyId": "AKIA47CRYYD47X7KLSM6",
+            "EventTime": 1726205628.0,
+            "EventSource": "iam.amazonaws.com",
+            "Username": "smtpk",
+            "Resources": [],
+            "CloudTrailEvent": "{\"eventVersion\":\"1.09\",\"userIdentity\":{\"type\":\"IAMUser\",\"principalId\":\"AIDA47CRYYD4WJZ3OBVPB\",\"arn\":\"arn:aws:iam::891377205497:user/smtpk\",\"accountId\":\"891377205497\",\"accessKeyId\":\"AKIA47CRYYD47X7KLSM6\",\"userName\":\"smtpk\"},\"eventTime\":\"2024-09-13T05:33:48Z\",\"eventSource\":\"iam.amazonaws.com\",\"eventName\":\"GetRole\",\"awsRegion\":\"us-east-1\",\"sourceIPAddress\":\"211.212.221.147\",\"userAgent\":\"Boto3/1.35.15 md/Botocore#1.35.15 ua/2.0 os/macos#24.0.0 md/arch#arm64 lang/python#3.12.4 md/pyimpl#CPython cfg/retry-mode#adaptive Botocore/1.35.15 Resource\",\"requestParameters\":{\"roleName\":\"testrole\"},\"responseElements\":null,\"requestID\":\"2fb250fb-e7b3-4de4-b917-3897e87a7107\",\"eventID\":\"ecad0420-4877-4785-be4c-441c246bff28\",\"readOnly\":true,\"eventType\":\"AwsApiCall\",\"managementEvent\":true,\"recipientAccountId\":\"891377205497\",\"eventCategory\":\"Management\",\"tlsDetails\":{\"tlsVersion\":\"TLSv1.3\",\"cipherSuite\":\"TLS_AES_128_GCM_SHA256\",\"clientProvidedHostHeader\":\"iam.amazonaws.com\"}}"
+        },
+        {
+            "EventId": "bb79184c-0407-4212-b42c-f7afd4766403",
+            "EventName": "UpdateAssumeRolePolicy",
+            "ReadOnly": "false",
+            "AccessKeyId": "AKIA47CRYYD47X7KLSM6",
+            "EventTime": 1726205627.0,
+            "EventSource": "iam.amazonaws.com",
+            "Username": "smtpk",
+            "Resources": [
+                {
+                    "ResourceType": "AWS::IAM::Role",
+                    "ResourceName": "AWSServiceRoleForSupport"
+                }
+            ],
+            "CloudTrailEvent": "{\"eventVersion\":\"1.09\",\"userIdentity\":{\"type\":\"IAMUser\",\"principalId\":\"AIDA47CRYYD4WJZ3OBVPB\",\"arn\":\"arn:aws:iam::891377205497:user/smtpk\",\"accountId\":\"891377205497\",\"accessKeyId\":\"AKIA47CRYYD47X7KLSM6\",\"userName\":\"smtpk\"},\"eventTime\":\"2024-09-13T05:33:47Z\",\"eventSource\":\"iam.amazonaws.com\",\"eventName\":\"UpdateAssumeRolePolicy\",\"awsRegion\":\"us-east-1\",\"sourceIPAddress\":\"211.212.221.147\",\"userAgent\":\"Boto3/1.35.15 md/Botocore#1.35.15 ua/2.0 os/macos#24.0.0 md/arch#arm64 lang/python#3.12.4 md/pyimpl#CPython cfg/retry-mode#adaptive Botocore/1.35.15\",\"errorCode\":\"UnmodifiableEntityException\",\"errorMessage\":\"Cannot perform the operation on the protected role 'AWSServiceRoleForSupport' - this role is only modifiable by AWS\",\"requestParameters\":{\"roleName\":\"AWSServiceRoleForSupport\",\"policyDocument\":\"{\\\"Version\\\": \\\"2012-10-17\\\", \\\"Statement\\\": [{\\\"Effect\\\": \\\"Allow\\\", \\\"Principal\\\": {\\\"Service\\\": \\\"support.amazonaws.com\\\", \\\"AWS\\\": \\\"arn:aws:iam::891377205497:user/smtpk\\\"}, \\\"Action\\\": \\\"sts:AssumeRole\\\"}]}\"},\"responseElements\":null,\"requestID\":\"ab60a045-b99e-4bd7-80a3-7692c79b2b5a\",\"eventID\":\"bb79184c-0407-4212-b42c-f7afd4766403\",\"readOnly\":false,\"eventType\":\"AwsApiCall\",\"managementEvent\":true,\"recipientAccountId\":\"891377205497\",\"eventCategory\":\"Management\",\"tlsDetails\":{\"tlsVersion\":\"TLSv1.3\",\"cipherSuite\":\"TLS_AES_128_GCM_SHA256\",\"clientProvidedHostHeader\":\"iam.amazonaws.com\"}}"
+        },
+        {
+            "EventId": "d90ad725-5819-4d9a-b26a-8e3e68a4d13a",
+            "EventName": "GetRole",
+            "ReadOnly": "true",
+            "AccessKeyId": "AKIA47CRYYD47X7KLSM6",
+            "EventTime": 1726205627.0,
+            "EventSource": "iam.amazonaws.com",
+            "Username": "smtpk",
+            "Resources": [],
+            "CloudTrailEvent": "{\"eventVersion\":\"1.09\",\"userIdentity\":{\"type\":\"IAMUser\",\"principalId\":\"AIDA47CRYYD4WJZ3OBVPB\",\"arn\":\"arn:aws:iam::891377205497:user/smtpk\",\"accountId\":\"891377205497\",\"accessKeyId\":\"AKIA47CRYYD47X7KLSM6\",\"userName\":\"smtpk\"},\"eventTime\":\"2024-09-13T05:33:47Z\",\"eventSource\":\"iam.amazonaws.com\",\"eventName\":\"GetRole\",\"awsRegion\":\"us-east-1\",\"sourceIPAddress\":\"211.212.221.147\",\"userAgent\":\"Boto3/1.35.15 md/Botocore#1.35.15 ua/2.0 os/macos#24.0.0 md/arch#arm64 lang/python#3.12.4 md/pyimpl#CPython cfg/retry-mode#adaptive Botocore/1.35.15 Resource\",\"requestParameters\":{\"roleName\":\"AWSServiceRoleForTrustedAdvisor\"},\"responseElements\":null,\"requestID\":\"c43bd3fc-2d5d-483f-b649-5ee1c744fb3e\",\"eventID\":\"d90ad725-5819-4d9a-b26a-8e3e68a4d13a\",\"readOnly\":true,\"eventType\":\"AwsApiCall\",\"managementEvent\":true,\"recipientAccountId\":\"891377205497\",\"eventCategory\":\"Management\",\"tlsDetails\":{\"tlsVersion\":\"TLSv1.3\",\"cipherSuite\":\"TLS_AES_128_GCM_SHA256\",\"clientProvidedHostHeader\":\"iam.amazonaws.com\"}}"
+        },
+        {
+            "EventId": "95340652-572a-4f41-a79a-3f7cddb1f0ac",
+            "EventName": "GetRole",
+            "ReadOnly": "true",
+            "AccessKeyId": "AKIA47CRYYD47X7KLSM6",
+            "EventTime": 1726205626.0,
+            "EventSource": "iam.amazonaws.com",
+            "Username": "smtpk",
+            "Resources": [],
+            "CloudTrailEvent": "{\"eventVersion\":\"1.09\",\"userIdentity\":{\"type\":\"IAMUser\",\"principalId\":\"AIDA47CRYYD4WJZ3OBVPB\",\"arn\":\"arn:aws:iam::891377205497:user/smtpk\",\"accountId\":\"891377205497\",\"accessKeyId\":\"AKIA47CRYYD47X7KLSM6\",\"userName\":\"smtpk\"},\"eventTime\":\"2024-09-13T05:33:46Z\",\"eventSource\":\"iam.amazonaws.com\",\"eventName\":\"GetRole\",\"awsRegion\":\"us-east-1\",\"sourceIPAddress\":\"211.212.221.147\",\"userAgent\":\"Boto3/1.35.15 md/Botocore#1.35.15 ua/2.0 os/macos#24.0.0 md/arch#arm64 lang/python#3.12.4 md/pyimpl#CPython cfg/retry-mode#adaptive Botocore/1.35.15 Resource\",\"requestParameters\":{\"roleName\":\"AWSServiceRoleForSupport\"},\"responseElements\":null,\"requestID\":\"18617ab9-ad11-4699-957a-96c98a375271\",\"eventID\":\"95340652-572a-4f41-a79a-3f7cddb1f0ac\",\"readOnly\":true,\"eventType\":\"AwsApiCall\",\"managementEvent\":true,\"recipientAccountId\":\"891377205497\",\"eventCategory\":\"Management\",\"tlsDetails\":{\"tlsVersion\":\"TLSv1.3\",\"cipherSuite\":\"TLS_AES_128_GCM_SHA256\",\"clientProvidedHostHeader\":\"iam.amazonaws.com\"}}"
+        },
+        {
+            "EventId": "1e7c28d4-bc7a-4b96-be33-d8d98dae22ad",
+            "EventName": "GetCallerIdentity",
+            "ReadOnly": "true",
+            "AccessKeyId": "AKIA47CRYYD47X7KLSM6",
+            "EventTime": 1726205625.0,
+            "EventSource": "sts.amazonaws.com",
+            "Username": "smtpk",
+            "Resources": [],
+            "CloudTrailEvent": "{\"eventVersion\":\"1.08\",\"userIdentity\":{\"type\":\"IAMUser\",\"principalId\":\"AIDA47CRYYD4WJZ3OBVPB\",\"arn\":\"arn:aws:iam::891377205497:user/smtpk\",\"accountId\":\"891377205497\",\"accessKeyId\":\"AKIA47CRYYD47X7KLSM6\",\"userName\":\"smtpk\"},\"eventTime\":\"2024-09-13T05:33:45Z\",\"eventSource\":\"sts.amazonaws.com\",\"eventName\":\"GetCallerIdentity\",\"awsRegion\":\"us-east-1\",\"sourceIPAddress\":\"211.212.221.147\",\"userAgent\":\"Boto3/1.35.15 md/Botocore#1.35.15 ua/2.0 os/macos#24.0.0 md/arch#arm64 lang/python#3.12.4 md/pyimpl#CPython cfg/retry-mode#adaptive Botocore/1.35.15\",\"requestParameters\":null,\"responseElements\":null,\"requestID\":\"47091f14-d31b-4379-aa60-12ff19221c3a\",\"eventID\":\"1e7c28d4-bc7a-4b96-be33-d8d98dae22ad\",\"readOnly\":true,\"eventType\":\"AwsApiCall\",\"managementEvent\":true,\"recipientAccountId\":\"891377205497\",\"eventCategory\":\"Management\",\"tlsDetails\":{\"tlsVersion\":\"TLSv1.3\",\"cipherSuite\":\"TLS_AES_128_GCM_SHA256\",\"clientProvidedHostHeader\":\"sts.amazonaws.com\"}}"
+        },
+        {
+            "EventId": "e29f79d3-0eb5-4106-a8b9-d531541255c5",
+            "EventName": "ListGroups",
+            "ReadOnly": "true",
+            "AccessKeyId": "AKIA47CRYYD47X7KLSM6",
+            "EventTime": 1726205624.0,
+            "EventSource": "iam.amazonaws.com",
+            "Username": "smtpk",
+            "Resources": [],
+            "CloudTrailEvent": "{\"eventVersion\":\"1.09\",\"userIdentity\":{\"type\":\"IAMUser\",\"principalId\":\"AIDA47CRYYD4WJZ3OBVPB\",\"arn\":\"arn:aws:iam::891377205497:user/smtpk\",\"accountId\":\"891377205497\",\"accessKeyId\":\"AKIA47CRYYD47X7KLSM6\",\"userName\":\"smtpk\"},\"eventTime\":\"2024-09-13T05:33:44Z\",\"eventSource\":\"iam.amazonaws.com\",\"eventName\":\"ListGroups\",\"awsRegion\":\"us-east-1\",\"sourceIPAddress\":\"211.212.221.147\",\"userAgent\":\"Boto3/1.35.15 md/Botocore#1.35.15 ua/2.0 os/macos#24.0.0 md/arch#arm64 lang/python#3.12.4 md/pyimpl#CPython cfg/retry-mode#adaptive Botocore/1.35.15\",\"requestParameters\":null,\"responseElements\":null,\"requestID\":\"10a43d39-1169-48ee-91db-a23eca457c08\",\"eventID\":\"e29f79d3-0eb5-4106-a8b9-d531541255c5\",\"readOnly\":true,\"eventType\":\"AwsApiCall\",\"managementEvent\":true,\"recipientAccountId\":\"891377205497\",\"eventCategory\":\"Management\",\"tlsDetails\":{\"tlsVersion\":\"TLSv1.3\",\"cipherSuite\":\"TLS_AES_128_GCM_SHA256\",\"clientProvidedHostHeader\":\"iam.amazonaws.com\"}}"
+        },
+        {
+            "EventId": "39a0ef39-2915-46c8-8997-6256d1c944ff",
+            "EventName": "ListRoles",
+            "ReadOnly": "true",
+            "AccessKeyId": "AKIA47CRYYD47X7KLSM6",
+            "EventTime": 1726205623.0,
+            "EventSource": "iam.amazonaws.com",
+            "Username": "smtpk",
+            "Resources": [],
+            "CloudTrailEvent": "{\"eventVersion\":\"1.09\",\"userIdentity\":{\"type\":\"IAMUser\",\"principalId\":\"AIDA47CRYYD4WJZ3OBVPB\",\"arn\":\"arn:aws:iam::891377205497:user/smtpk\",\"accountId\":\"891377205497\",\"accessKeyId\":\"AKIA47CRYYD47X7KLSM6\",\"userName\":\"smtpk\"},\"eventTime\":\"2024-09-13T05:33:43Z\",\"eventSource\":\"iam.amazonaws.com\",\"eventName\":\"ListRoles\",\"awsRegion\":\"us-east-1\",\"sourceIPAddress\":\"211.212.221.147\",\"userAgent\":\"Boto3/1.35.15 md/Botocore#1.35.15 ua/2.0 os/macos#24.0.0 md/arch#arm64 lang/python#3.12.4 md/pyimpl#CPython cfg/retry-mode#adaptive Botocore/1.35.15\",\"requestParameters\":null,\"responseElements\":null,\"requestID\":\"eb1f60de-8b2a-4ca2-a100-ded31a411ac5\",\"eventID\":\"39a0ef39-2915-46c8-8997-6256d1c944ff\",\"readOnly\":true,\"eventType\":\"AwsApiCall\",\"managementEvent\":true,\"recipientAccountId\":\"891377205497\",\"eventCategory\":\"Management\",\"tlsDetails\":{\"tlsVersion\":\"TLSv1.3\",\"cipherSuite\":\"TLS_AES_128_GCM_SHA256\",\"clientProvidedHostHeader\":\"iam.amazonaws.com\"}}"
+        },
+        {
+            "EventId": "4f5ae15a-3458-4afa-85a4-5f15b9828e48",
+            "EventName": "ListPolicies",
+            "ReadOnly": "true",
+            "AccessKeyId": "AKIA47CRYYD47X7KLSM6",
+            "EventTime": 1726205623.0,
+            "EventSource": "iam.amazonaws.com",
+            "Username": "smtpk",
+            "Resources": [],
+            "CloudTrailEvent": "{\"eventVersion\":\"1.09\",\"userIdentity\":{\"type\":\"IAMUser\",\"principalId\":\"AIDA47CRYYD4WJZ3OBVPB\",\"arn\":\"arn:aws:iam::891377205497:user/smtpk\",\"accountId\":\"891377205497\",\"accessKeyId\":\"AKIA47CRYYD47X7KLSM6\",\"userName\":\"smtpk\"},\"eventTime\":\"2024-09-13T05:33:43Z\",\"eventSource\":\"iam.amazonaws.com\",\"eventName\":\"ListPolicies\",\"awsRegion\":\"us-east-1\",\"sourceIPAddress\":\"211.212.221.147\",\"userAgent\":\"Boto3/1.35.15 md/Botocore#1.35.15 ua/2.0 os/macos#24.0.0 md/arch#arm64 lang/python#3.12.4 md/pyimpl#CPython cfg/retry-mode#adaptive Botocore/1.35.15\",\"requestParameters\":{\"scope\":\"Local\",\"onlyAttached\":false},\"responseElements\":null,\"requestID\":\"c59e91e6-9d9a-411c-b687-0e1cecbd147c\",\"eventID\":\"4f5ae15a-3458-4afa-85a4-5f15b9828e48\",\"readOnly\":true,\"eventType\":\"AwsApiCall\",\"managementEvent\":true,\"recipientAccountId\":\"891377205497\",\"eventCategory\":\"Management\",\"tlsDetails\":{\"tlsVersion\":\"TLSv1.3\",\"cipherSuite\":\"TLS_AES_128_GCM_SHA256\",\"clientProvidedHostHeader\":\"iam.amazonaws.com\"}}"
+        },
+        {
+            "EventId": "dda8ba0c-c41d-48f2-9c46-c072c8f2ddff",
+            "EventName": "ListUsers",
+            "ReadOnly": "true",
+            "AccessKeyId": "AKIA47CRYYD47X7KLSM6",
+            "EventTime": 1726205623.0,
+            "EventSource": "iam.amazonaws.com",
+            "Username": "smtpk",
+            "Resources": [],
+            "CloudTrailEvent": "{\"eventVersion\":\"1.09\",\"userIdentity\":{\"type\":\"IAMUser\",\"principalId\":\"AIDA47CRYYD4WJZ3OBVPB\",\"arn\":\"arn:aws:iam::891377205497:user/smtpk\",\"accountId\":\"891377205497\",\"accessKeyId\":\"AKIA47CRYYD47X7KLSM6\",\"userName\":\"smtpk\"},\"eventTime\":\"2024-09-13T05:33:43Z\",\"eventSource\":\"iam.amazonaws.com\",\"eventName\":\"ListUsers\",\"awsRegion\":\"us-east-1\",\"sourceIPAddress\":\"211.212.221.147\",\"userAgent\":\"Boto3/1.35.15 md/Botocore#1.35.15 ua/2.0 os/macos#24.0.0 md/arch#arm64 lang/python#3.12.4 md/pyimpl#CPython cfg/retry-mode#adaptive Botocore/1.35.15\",\"requestParameters\":null,\"responseElements\":null,\"requestID\":\"8e379686-121e-4b89-8b07-8ff1275e8e89\",\"eventID\":\"dda8ba0c-c41d-48f2-9c46-c072c8f2ddff\",\"readOnly\":true,\"eventType\":\"AwsApiCall\",\"managementEvent\":true,\"recipientAccountId\":\"891377205497\",\"eventCategory\":\"Management\",\"tlsDetails\":{\"tlsVersion\":\"TLSv1.3\",\"cipherSuite\":\"TLS_AES_128_GCM_SHA256\",\"clientProvidedHostHeader\":\"iam.amazonaws.com\"}}"
+        },
+        {
+            "EventId": "12a4c465-b76c-4df2-ab14-94849abb0da2",
+            "EventName": "AttachRolePolicy",
+            "ReadOnly": "false",
+            "AccessKeyId": "AKIA47CRYYD4RRSTPACL",
+            "EventTime": 1726205620.0,
+            "EventSource": "iam.amazonaws.com",
+            "Username": "lookupIam",
+            "Resources": [
+                {
+                    "ResourceType": "AWS::IAM::Policy",
+                    "ResourceName": "arn:aws:iam::aws:policy/AdministratorAccess"
+                },
+                {
+                    "ResourceType": "AWS::IAM::Role",
+                    "ResourceName": "testrole"
+                }
+            ],
+            "CloudTrailEvent": "{\"eventVersion\":\"1.09\",\"userIdentity\":{\"type\":\"IAMUser\",\"principalId\":\"AIDA47CRYYD4ZK4QW73V5\",\"arn\":\"arn:aws:iam::891377205497:user/lookupIam\",\"accountId\":\"891377205497\",\"accessKeyId\":\"AKIA47CRYYD4RRSTPACL\",\"userName\":\"lookupIam\"},\"eventTime\":\"2024-09-13T05:33:40Z\",\"eventSource\":\"iam.amazonaws.com\",\"eventName\":\"AttachRolePolicy\",\"awsRegion\":\"us-east-1\",\"sourceIPAddress\":\"211.212.221.147\",\"userAgent\":\"APN/1.0 HashiCorp/1.0 Terraform/1.5.7 (+https://www.terraform.io) terraform-provider-aws/5.67.0 (+https://registry.terraform.io/providers/hashicorp/aws) aws-sdk-go-v2/1.30.5 os/macos lang/go#1.22.6 md/GOOS#darwin md/GOARCH#arm64 api/iam#1.35.2\",\"requestParameters\":{\"roleName\":\"testrole\",\"policyArn\":\"arn:aws:iam::aws:policy/AdministratorAccess\"},\"responseElements\":null,\"requestID\":\"3bd9a812-af78-4924-a10a-34f817e3b032\",\"eventID\":\"12a4c465-b76c-4df2-ab14-94849abb0da2\",\"readOnly\":false,\"eventType\":\"AwsApiCall\",\"managementEvent\":true,\"recipientAccountId\":\"891377205497\",\"eventCategory\":\"Management\",\"tlsDetails\":{\"tlsVersion\":\"TLSv1.3\",\"cipherSuite\":\"TLS_AES_128_GCM_SHA256\",\"clientProvidedHostHeader\":\"iam.amazonaws.com\"}}"
+        },
+        {
+            "EventId": "5ef693f2-67eb-4e05-a638-8f8e8593ee5f",
+            "EventName": "ListAttachedRolePolicies",
+            "ReadOnly": "true",
+            "AccessKeyId": "AKIA47CRYYD4RRSTPACL",
+            "EventTime": 1726205620.0,
+            "EventSource": "iam.amazonaws.com",
+            "Username": "lookupIam",
+            "Resources": [],
+            "CloudTrailEvent": "{\"eventVersion\":\"1.09\",\"userIdentity\":{\"type\":\"IAMUser\",\"principalId\":\"AIDA47CRYYD4ZK4QW73V5\",\"arn\":\"arn:aws:iam::891377205497:user/lookupIam\",\"accountId\":\"891377205497\",\"accessKeyId\":\"AKIA47CRYYD4RRSTPACL\",\"userName\":\"lookupIam\"},\"eventTime\":\"2024-09-13T05:33:40Z\",\"eventSource\":\"iam.amazonaws.com\",\"eventName\":\"ListAttachedRolePolicies\",\"awsRegion\":\"us-east-1\",\"sourceIPAddress\":\"211.212.221.147\",\"userAgent\":\"APN/1.0 HashiCorp/1.0 Terraform/1.5.7 (+https://www.terraform.io) terraform-provider-aws/5.67.0 (+https://registry.terraform.io/providers/hashicorp/aws) m/C aws-sdk-go-v2/1.30.5 os/macos lang/go#1.22.6 md/GOOS#darwin md/GOARCH#arm64 api/iam#1.35.2\",\"requestParameters\":{\"roleName\":\"testrole\"},\"responseElements\":null,\"requestID\":\"a6eb297c-73ab-40f9-be71-899196218405\",\"eventID\":\"5ef693f2-67eb-4e05-a638-8f8e8593ee5f\",\"readOnly\":true,\"eventType\":\"AwsApiCall\",\"managementEvent\":true,\"recipientAccountId\":\"891377205497\",\"eventCategory\":\"Management\",\"tlsDetails\":{\"tlsVersion\":\"TLSv1.3\",\"cipherSuite\":\"TLS_AES_128_GCM_SHA256\",\"clientProvidedHostHeader\":\"iam.amazonaws.com\"}}"
+        },
+        {
+            "EventId": "8df2adf7-efaa-44ca-8c31-eeb0c24caf8e",
+            "EventName": "ListAttachedRolePolicies",
+            "ReadOnly": "true",
+            "AccessKeyId": "AKIA47CRYYD4RRSTPACL",
+            "EventTime": 1726205620.0,
+            "EventSource": "iam.amazonaws.com",
+            "Username": "lookupIam",
+            "Resources": [],
+            "CloudTrailEvent": "{\"eventVersion\":\"1.09\",\"userIdentity\":{\"type\":\"IAMUser\",\"principalId\":\"AIDA47CRYYD4ZK4QW73V5\",\"arn\":\"arn:aws:iam::891377205497:user/lookupIam\",\"accountId\":\"891377205497\",\"accessKeyId\":\"AKIA47CRYYD4RRSTPACL\",\"userName\":\"lookupIam\"},\"eventTime\":\"2024-09-13T05:33:40Z\",\"eventSource\":\"iam.amazonaws.com\",\"eventName\":\"ListAttachedRolePolicies\",\"awsRegion\":\"us-east-1\",\"sourceIPAddress\":\"211.212.221.147\",\"userAgent\":\"APN/1.0 HashiCorp/1.0 Terraform/1.5.7 (+https://www.terraform.io) terraform-provider-aws/5.67.0 (+https://registry.terraform.io/providers/hashicorp/aws) m/C aws-sdk-go-v2/1.30.5 os/macos lang/go#1.22.6 md/GOOS#darwin md/GOARCH#arm64 api/iam#1.35.2\",\"requestParameters\":{\"roleName\":\"testrole\"},\"responseElements\":null,\"requestID\":\"1866afd9-632f-42b3-8944-80c2cd8197fe\",\"eventID\":\"8df2adf7-efaa-44ca-8c31-eeb0c24caf8e\",\"readOnly\":true,\"eventType\":\"AwsApiCall\",\"managementEvent\":true,\"recipientAccountId\":\"891377205497\",\"eventCategory\":\"Management\",\"tlsDetails\":{\"tlsVersion\":\"TLSv1.3\",\"cipherSuite\":\"TLS_AES_128_GCM_SHA256\",\"clientProvidedHostHeader\":\"iam.amazonaws.com\"}}"
+        }
+    ]
+}

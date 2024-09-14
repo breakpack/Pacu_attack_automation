@@ -1,0 +1,120 @@
+{
+    "Events": [
+        {
+            "EventId": "8398ad5e-d1e9-43ec-851c-79d094f1df28",
+            "EventName": "CreateAccessKey",
+            "ReadOnly": "false",
+            "AccessKeyId": "AKIA47CRYYD4YTBGTXVW",
+            "EventTime": 1726279777.0,
+            "EventSource": "iam.amazonaws.com",
+            "Username": "temnd",
+            "Resources": [
+                {
+                    "ResourceType": "AWS::IAM::User",
+                    "ResourceName": "lookupIam"
+                }
+            ],
+            "CloudTrailEvent": "{\"eventVersion\":\"1.09\",\"userIdentity\":{\"type\":\"IAMUser\",\"principalId\":\"AIDA47CRYYD4ZEH4AFN77\",\"arn\":\"arn:aws:iam::891377205497:user/temnd\",\"accountId\":\"891377205497\",\"accessKeyId\":\"AKIA47CRYYD4YTBGTXVW\",\"userName\":\"temnd\"},\"eventTime\":\"2024-09-14T02:09:37Z\",\"eventSource\":\"iam.amazonaws.com\",\"eventName\":\"CreateAccessKey\",\"awsRegion\":\"us-east-1\",\"sourceIPAddress\":\"211.212.221.147\",\"userAgent\":\"Boto3/1.35.15 md/Botocore#1.35.15 ua/2.0 os/macos#24.0.0 md/arch#arm64 lang/python#3.12.4 md/pyimpl#CPython cfg/retry-mode#adaptive Botocore/1.35.15\",\"errorCode\":\"LimitExceededException\",\"errorMessage\":\"Cannot exceed quota for AccessKeysPerUser: 2\",\"requestParameters\":{\"userName\":\"lookupIam\"},\"responseElements\":null,\"requestID\":\"c6fb449b-6862-4ecf-bccb-8eea748c5ecc\",\"eventID\":\"8398ad5e-d1e9-43ec-851c-79d094f1df28\",\"readOnly\":false,\"eventType\":\"AwsApiCall\",\"managementEvent\":true,\"recipientAccountId\":\"891377205497\",\"eventCategory\":\"Management\",\"tlsDetails\":{\"tlsVersion\":\"TLSv1.3\",\"cipherSuite\":\"TLS_AES_128_GCM_SHA256\",\"clientProvidedHostHeader\":\"iam.amazonaws.com\"}}"
+        },
+        {
+            "EventId": "898451f7-b159-46dd-aaff-dde0034b130b",
+            "EventName": "CreateAccessKey",
+            "ReadOnly": "false",
+            "AccessKeyId": "AKIA47CRYYD4YTBGTXVW",
+            "EventTime": 1726279777.0,
+            "EventSource": "iam.amazonaws.com",
+            "Username": "temnd",
+            "Resources": [
+                {
+                    "ResourceType": "AWS::IAM::User",
+                    "ResourceName": "pacu-test"
+                }
+            ],
+            "CloudTrailEvent": "{\"eventVersion\":\"1.09\",\"userIdentity\":{\"type\":\"IAMUser\",\"principalId\":\"AIDA47CRYYD4ZEH4AFN77\",\"arn\":\"arn:aws:iam::891377205497:user/temnd\",\"accountId\":\"891377205497\",\"accessKeyId\":\"AKIA47CRYYD4YTBGTXVW\",\"userName\":\"temnd\"},\"eventTime\":\"2024-09-14T02:09:37Z\",\"eventSource\":\"iam.amazonaws.com\",\"eventName\":\"CreateAccessKey\",\"awsRegion\":\"us-east-1\",\"sourceIPAddress\":\"211.212.221.147\",\"userAgent\":\"Boto3/1.35.15 md/Botocore#1.35.15 ua/2.0 os/macos#24.0.0 md/arch#arm64 lang/python#3.12.4 md/pyimpl#CPython cfg/retry-mode#adaptive Botocore/1.35.15\",\"errorCode\":\"LimitExceededException\",\"errorMessage\":\"Cannot exceed quota for AccessKeysPerUser: 2\",\"requestParameters\":{\"userName\":\"pacu-test\"},\"responseElements\":null,\"requestID\":\"4515796d-9e39-4f32-9eb0-b735e575f6d5\",\"eventID\":\"898451f7-b159-46dd-aaff-dde0034b130b\",\"readOnly\":false,\"eventType\":\"AwsApiCall\",\"managementEvent\":true,\"recipientAccountId\":\"891377205497\",\"eventCategory\":\"Management\",\"tlsDetails\":{\"tlsVersion\":\"TLSv1.3\",\"cipherSuite\":\"TLS_AES_128_GCM_SHA256\",\"clientProvidedHostHeader\":\"iam.amazonaws.com\"}}"
+        },
+        {
+            "EventId": "8c1144fa-b710-43ab-80f3-69f4bf8870fa",
+            "EventName": "CreateAccessKey",
+            "ReadOnly": "false",
+            "AccessKeyId": "AKIA47CRYYD4YTBGTXVW",
+            "EventTime": 1726279777.0,
+            "EventSource": "iam.amazonaws.com",
+            "Username": "temnd",
+            "Resources": [
+                {
+                    "ResourceType": "AWS::IAM::AccessKey",
+                    "ResourceName": "AKIA47CRYYD4UIZJWZEU"
+                },
+                {
+                    "ResourceType": "AWS::IAM::User",
+                    "ResourceName": "temnd"
+                }
+            ],
+            "CloudTrailEvent": "{\"eventVersion\":\"1.09\",\"userIdentity\":{\"type\":\"IAMUser\",\"principalId\":\"AIDA47CRYYD4ZEH4AFN77\",\"arn\":\"arn:aws:iam::891377205497:user/temnd\",\"accountId\":\"891377205497\",\"accessKeyId\":\"AKIA47CRYYD4YTBGTXVW\",\"userName\":\"temnd\"},\"eventTime\":\"2024-09-14T02:09:37Z\",\"eventSource\":\"iam.amazonaws.com\",\"eventName\":\"CreateAccessKey\",\"awsRegion\":\"us-east-1\",\"sourceIPAddress\":\"211.212.221.147\",\"userAgent\":\"Boto3/1.35.15 md/Botocore#1.35.15 ua/2.0 os/macos#24.0.0 md/arch#arm64 lang/python#3.12.4 md/pyimpl#CPython cfg/retry-mode#adaptive Botocore/1.35.15\",\"requestParameters\":{\"userName\":\"temnd\"},\"responseElements\":{\"accessKey\":{\"userName\":\"temnd\",\"accessKeyId\":\"AKIA47CRYYD4UIZJWZEU\",\"status\":\"Active\",\"createDate\":\"Sep 14, 2024 2:09:37 AM\"}},\"requestID\":\"373649d5-a868-473d-96ea-5870b707f336\",\"eventID\":\"8c1144fa-b710-43ab-80f3-69f4bf8870fa\",\"readOnly\":false,\"eventType\":\"AwsApiCall\",\"managementEvent\":true,\"recipientAccountId\":\"891377205497\",\"eventCategory\":\"Management\",\"tlsDetails\":{\"tlsVersion\":\"TLSv1.3\",\"cipherSuite\":\"TLS_AES_128_GCM_SHA256\",\"clientProvidedHostHeader\":\"iam.amazonaws.com\"}}"
+        },
+        {
+            "EventId": "8d57749a-84a3-4e0f-b94d-5e73d3fd17fd",
+            "EventName": "CreateAccessKey",
+            "ReadOnly": "false",
+            "AccessKeyId": "AKIA47CRYYD4YTBGTXVW",
+            "EventTime": 1726279777.0,
+            "EventSource": "iam.amazonaws.com",
+            "Username": "temnd",
+            "Resources": [
+                {
+                    "ResourceType": "AWS::IAM::AccessKey",
+                    "ResourceName": "AKIA47CRYYD4XXGIS2SF"
+                },
+                {
+                    "ResourceType": "AWS::IAM::User",
+                    "ResourceName": "target"
+                }
+            ],
+            "CloudTrailEvent": "{\"eventVersion\":\"1.09\",\"userIdentity\":{\"type\":\"IAMUser\",\"principalId\":\"AIDA47CRYYD4ZEH4AFN77\",\"arn\":\"arn:aws:iam::891377205497:user/temnd\",\"accountId\":\"891377205497\",\"accessKeyId\":\"AKIA47CRYYD4YTBGTXVW\",\"userName\":\"temnd\"},\"eventTime\":\"2024-09-14T02:09:37Z\",\"eventSource\":\"iam.amazonaws.com\",\"eventName\":\"CreateAccessKey\",\"awsRegion\":\"us-east-1\",\"sourceIPAddress\":\"211.212.221.147\",\"userAgent\":\"Boto3/1.35.15 md/Botocore#1.35.15 ua/2.0 os/macos#24.0.0 md/arch#arm64 lang/python#3.12.4 md/pyimpl#CPython cfg/retry-mode#adaptive Botocore/1.35.15\",\"requestParameters\":{\"userName\":\"target\"},\"responseElements\":{\"accessKey\":{\"userName\":\"target\",\"accessKeyId\":\"AKIA47CRYYD4XXGIS2SF\",\"status\":\"Active\",\"createDate\":\"Sep 14, 2024 2:09:37 AM\"}},\"requestID\":\"175e58ba-ed6b-4672-80b7-e38cf6a9764e\",\"eventID\":\"8d57749a-84a3-4e0f-b94d-5e73d3fd17fd\",\"readOnly\":false,\"eventType\":\"AwsApiCall\",\"managementEvent\":true,\"recipientAccountId\":\"891377205497\",\"eventCategory\":\"Management\",\"tlsDetails\":{\"tlsVersion\":\"TLSv1.3\",\"cipherSuite\":\"TLS_AES_128_GCM_SHA256\",\"clientProvidedHostHeader\":\"iam.amazonaws.com\"}}"
+        },
+        {
+            "EventId": "6fca0e29-6d92-4f4f-a39d-ae4752693534",
+            "EventName": "ListGroups",
+            "ReadOnly": "true",
+            "AccessKeyId": "AKIA47CRYYD4YTBGTXVW",
+            "EventTime": 1726279776.0,
+            "EventSource": "iam.amazonaws.com",
+            "Username": "temnd",
+            "Resources": [],
+            "CloudTrailEvent": "{\"eventVersion\":\"1.09\",\"userIdentity\":{\"type\":\"IAMUser\",\"principalId\":\"AIDA47CRYYD4ZEH4AFN77\",\"arn\":\"arn:aws:iam::891377205497:user/temnd\",\"accountId\":\"891377205497\",\"accessKeyId\":\"AKIA47CRYYD4YTBGTXVW\",\"userName\":\"temnd\"},\"eventTime\":\"2024-09-14T02:09:36Z\",\"eventSource\":\"iam.amazonaws.com\",\"eventName\":\"ListGroups\",\"awsRegion\":\"us-east-1\",\"sourceIPAddress\":\"211.212.221.147\",\"userAgent\":\"Boto3/1.35.15 md/Botocore#1.35.15 ua/2.0 os/macos#24.0.0 md/arch#arm64 lang/python#3.12.4 md/pyimpl#CPython cfg/retry-mode#adaptive Botocore/1.35.15\",\"errorCode\":\"AccessDenied\",\"errorMessage\":\"User: arn:aws:iam::891377205497:user/temnd is not authorized to perform: iam:ListGroups on resource: arn:aws:iam::891377205497:group/ because no identity-based policy allows the iam:ListGroups action\",\"requestParameters\":null,\"responseElements\":null,\"requestID\":\"82c2f6ea-9a50-46e7-a5f8-da34be6e93ac\",\"eventID\":\"6fca0e29-6d92-4f4f-a39d-ae4752693534\",\"readOnly\":true,\"eventType\":\"AwsApiCall\",\"managementEvent\":true,\"recipientAccountId\":\"891377205497\",\"eventCategory\":\"Management\",\"tlsDetails\":{\"tlsVersion\":\"TLSv1.3\",\"cipherSuite\":\"TLS_AES_128_GCM_SHA256\",\"clientProvidedHostHeader\":\"iam.amazonaws.com\"}}"
+        },
+        {
+            "EventId": "904d4bee-0a1d-44d6-bc2c-f78f3252433f",
+            "EventName": "ListPolicies",
+            "ReadOnly": "true",
+            "AccessKeyId": "AKIA47CRYYD4YTBGTXVW",
+            "EventTime": 1726279776.0,
+            "EventSource": "iam.amazonaws.com",
+            "Username": "temnd",
+            "Resources": [],
+            "CloudTrailEvent": "{\"eventVersion\":\"1.09\",\"userIdentity\":{\"type\":\"IAMUser\",\"principalId\":\"AIDA47CRYYD4ZEH4AFN77\",\"arn\":\"arn:aws:iam::891377205497:user/temnd\",\"accountId\":\"891377205497\",\"accessKeyId\":\"AKIA47CRYYD4YTBGTXVW\",\"userName\":\"temnd\"},\"eventTime\":\"2024-09-14T02:09:36Z\",\"eventSource\":\"iam.amazonaws.com\",\"eventName\":\"ListPolicies\",\"awsRegion\":\"us-east-1\",\"sourceIPAddress\":\"211.212.221.147\",\"userAgent\":\"Boto3/1.35.15 md/Botocore#1.35.15 ua/2.0 os/macos#24.0.0 md/arch#arm64 lang/python#3.12.4 md/pyimpl#CPython cfg/retry-mode#adaptive Botocore/1.35.15\",\"errorCode\":\"AccessDenied\",\"errorMessage\":\"User: arn:aws:iam::891377205497:user/temnd is not authorized to perform: iam:ListPolicies on resource: policy path / because no identity-based policy allows the iam:ListPolicies action\",\"requestParameters\":null,\"responseElements\":null,\"requestID\":\"d5e8b539-d3e4-40d9-8fcb-b11d232d01ec\",\"eventID\":\"904d4bee-0a1d-44d6-bc2c-f78f3252433f\",\"readOnly\":true,\"eventType\":\"AwsApiCall\",\"managementEvent\":true,\"recipientAccountId\":\"891377205497\",\"eventCategory\":\"Management\",\"tlsDetails\":{\"tlsVersion\":\"TLSv1.3\",\"cipherSuite\":\"TLS_AES_128_GCM_SHA256\",\"clientProvidedHostHeader\":\"iam.amazonaws.com\"}}"
+        },
+        {
+            "EventId": "704239d0-3b46-4e9e-9569-678df7c0fcd1",
+            "EventName": "ListUsers",
+            "ReadOnly": "true",
+            "AccessKeyId": "AKIA47CRYYD4YTBGTXVW",
+            "EventTime": 1726279775.0,
+            "EventSource": "iam.amazonaws.com",
+            "Username": "temnd",
+            "Resources": [],
+            "CloudTrailEvent": "{\"eventVersion\":\"1.09\",\"userIdentity\":{\"type\":\"IAMUser\",\"principalId\":\"AIDA47CRYYD4ZEH4AFN77\",\"arn\":\"arn:aws:iam::891377205497:user/temnd\",\"accountId\":\"891377205497\",\"accessKeyId\":\"AKIA47CRYYD4YTBGTXVW\",\"userName\":\"temnd\"},\"eventTime\":\"2024-09-14T02:09:35Z\",\"eventSource\":\"iam.amazonaws.com\",\"eventName\":\"ListUsers\",\"awsRegion\":\"us-east-1\",\"sourceIPAddress\":\"211.212.221.147\",\"userAgent\":\"Boto3/1.35.15 md/Botocore#1.35.15 ua/2.0 os/macos#24.0.0 md/arch#arm64 lang/python#3.12.4 md/pyimpl#CPython cfg/retry-mode#adaptive Botocore/1.35.15\",\"requestParameters\":null,\"responseElements\":null,\"requestID\":\"e9f06f21-9d2f-454d-9565-f8200b9baa9b\",\"eventID\":\"704239d0-3b46-4e9e-9569-678df7c0fcd1\",\"readOnly\":true,\"eventType\":\"AwsApiCall\",\"managementEvent\":true,\"recipientAccountId\":\"891377205497\",\"eventCategory\":\"Management\",\"tlsDetails\":{\"tlsVersion\":\"TLSv1.3\",\"cipherSuite\":\"TLS_AES_128_GCM_SHA256\",\"clientProvidedHostHeader\":\"iam.amazonaws.com\"}}"
+        },
+        {
+            "EventId": "de9f1d0f-a7a7-4a23-a419-a761a1b8bbca",
+            "EventName": "ListRoles",
+            "ReadOnly": "true",
+            "AccessKeyId": "AKIA47CRYYD4YTBGTXVW",
+            "EventTime": 1726279775.0,
+            "EventSource": "iam.amazonaws.com",
+            "Username": "temnd",
+            "Resources": [],
+            "CloudTrailEvent": "{\"eventVersion\":\"1.09\",\"userIdentity\":{\"type\":\"IAMUser\",\"principalId\":\"AIDA47CRYYD4ZEH4AFN77\",\"arn\":\"arn:aws:iam::891377205497:user/temnd\",\"accountId\":\"891377205497\",\"accessKeyId\":\"AKIA47CRYYD4YTBGTXVW\",\"userName\":\"temnd\"},\"eventTime\":\"2024-09-14T02:09:35Z\",\"eventSource\":\"iam.amazonaws.com\",\"eventName\":\"ListRoles\",\"awsRegion\":\"us-east-1\",\"sourceIPAddress\":\"211.212.221.147\",\"userAgent\":\"Boto3/1.35.15 md/Botocore#1.35.15 ua/2.0 os/macos#24.0.0 md/arch#arm64 lang/python#3.12.4 md/pyimpl#CPython cfg/retry-mode#adaptive Botocore/1.35.15\",\"errorCode\":\"AccessDenied\",\"errorMessage\":\"User: arn:aws:iam::891377205497:user/temnd is not authorized to perform: iam:ListRoles on resource: arn:aws:iam::891377205497:role/ because no identity-based policy allows the iam:ListRoles action\",\"requestParameters\":null,\"responseElements\":null,\"requestID\":\"7921cc41-0f7b-4af1-b3b0-dd1dd1fde299\",\"eventID\":\"de9f1d0f-a7a7-4a23-a419-a761a1b8bbca\",\"readOnly\":true,\"eventType\":\"AwsApiCall\",\"managementEvent\":true,\"recipientAccountId\":\"891377205497\",\"eventCategory\":\"Management\",\"tlsDetails\":{\"tlsVersion\":\"TLSv1.3\",\"cipherSuite\":\"TLS_AES_128_GCM_SHA256\",\"clientProvidedHostHeader\":\"iam.amazonaws.com\"}}"
+        }
+    ]
+}

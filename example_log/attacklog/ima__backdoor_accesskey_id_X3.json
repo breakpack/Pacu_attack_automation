@@ -1,0 +1,98 @@
+{
+    "Events": [
+        {
+            "EventId": "5fdc328e-3927-4172-b8ea-70b968993610",
+            "EventName": "CreateAccessKey",
+            "ReadOnly": "false",
+            "AccessKeyId": "AKIA47CRYYD4WWHOA2UT",
+            "EventTime": 1726279940.0,
+            "EventSource": "iam.amazonaws.com",
+            "Username": "lgbya",
+            "Resources": [
+                {
+                    "ResourceType": "AWS::IAM::User",
+                    "ResourceName": "pacu-test"
+                }
+            ],
+            "CloudTrailEvent": "{\"eventVersion\":\"1.09\",\"userIdentity\":{\"type\":\"IAMUser\",\"principalId\":\"AIDA47CRYYD4QENLSZOVY\",\"arn\":\"arn:aws:iam::891377205497:user/lgbya\",\"accountId\":\"891377205497\",\"accessKeyId\":\"AKIA47CRYYD4WWHOA2UT\",\"userName\":\"lgbya\"},\"eventTime\":\"2024-09-14T02:12:20Z\",\"eventSource\":\"iam.amazonaws.com\",\"eventName\":\"CreateAccessKey\",\"awsRegion\":\"us-east-1\",\"sourceIPAddress\":\"211.212.221.147\",\"userAgent\":\"Boto3/1.35.15 md/Botocore#1.35.15 ua/2.0 os/macos#24.0.0 md/arch#arm64 lang/python#3.12.4 md/pyimpl#CPython cfg/retry-mode#adaptive Botocore/1.35.15\",\"errorCode\":\"LimitExceededException\",\"errorMessage\":\"Cannot exceed quota for AccessKeysPerUser: 2\",\"requestParameters\":{\"userName\":\"pacu-test\"},\"responseElements\":null,\"requestID\":\"4c781fdc-a0f2-4d5f-8523-abebf4fb0f0d\",\"eventID\":\"5fdc328e-3927-4172-b8ea-70b968993610\",\"readOnly\":false,\"eventType\":\"AwsApiCall\",\"managementEvent\":true,\"recipientAccountId\":\"891377205497\",\"eventCategory\":\"Management\",\"tlsDetails\":{\"tlsVersion\":\"TLSv1.3\",\"cipherSuite\":\"TLS_AES_128_GCM_SHA256\",\"clientProvidedHostHeader\":\"iam.amazonaws.com\"}}"
+        },
+        {
+            "EventId": "97a6c5db-48ab-4777-9443-b4e6cb32b72b",
+            "EventName": "CreateAccessKey",
+            "ReadOnly": "false",
+            "AccessKeyId": "AKIA47CRYYD4WWHOA2UT",
+            "EventTime": 1726279940.0,
+            "EventSource": "iam.amazonaws.com",
+            "Username": "lgbya",
+            "Resources": [
+                {
+                    "ResourceType": "AWS::IAM::User",
+                    "ResourceName": "lookupIam"
+                }
+            ],
+            "CloudTrailEvent": "{\"eventVersion\":\"1.09\",\"userIdentity\":{\"type\":\"IAMUser\",\"principalId\":\"AIDA47CRYYD4QENLSZOVY\",\"arn\":\"arn:aws:iam::891377205497:user/lgbya\",\"accountId\":\"891377205497\",\"accessKeyId\":\"AKIA47CRYYD4WWHOA2UT\",\"userName\":\"lgbya\"},\"eventTime\":\"2024-09-14T02:12:20Z\",\"eventSource\":\"iam.amazonaws.com\",\"eventName\":\"CreateAccessKey\",\"awsRegion\":\"us-east-1\",\"sourceIPAddress\":\"211.212.221.147\",\"userAgent\":\"Boto3/1.35.15 md/Botocore#1.35.15 ua/2.0 os/macos#24.0.0 md/arch#arm64 lang/python#3.12.4 md/pyimpl#CPython cfg/retry-mode#adaptive Botocore/1.35.15\",\"errorCode\":\"LimitExceededException\",\"errorMessage\":\"Cannot exceed quota for AccessKeysPerUser: 2\",\"requestParameters\":{\"userName\":\"lookupIam\"},\"responseElements\":null,\"requestID\":\"a2db5823-c9a9-46da-b622-2709bd8e06a3\",\"eventID\":\"97a6c5db-48ab-4777-9443-b4e6cb32b72b\",\"readOnly\":false,\"eventType\":\"AwsApiCall\",\"managementEvent\":true,\"recipientAccountId\":\"891377205497\",\"eventCategory\":\"Management\",\"tlsDetails\":{\"tlsVersion\":\"TLSv1.3\",\"cipherSuite\":\"TLS_AES_128_GCM_SHA256\",\"clientProvidedHostHeader\":\"iam.amazonaws.com\"}}"
+        },
+        {
+            "EventId": "e01ab5a1-4402-4ca6-b2a9-a696e976712e",
+            "EventName": "CreateAccessKey",
+            "ReadOnly": "false",
+            "AccessKeyId": "AKIA47CRYYD4WWHOA2UT",
+            "EventTime": 1726279940.0,
+            "EventSource": "iam.amazonaws.com",
+            "Username": "lgbya",
+            "Resources": [
+                {
+                    "ResourceType": "AWS::IAM::AccessKey",
+                    "ResourceName": "AKIA47CRYYD4YVUOS3T3"
+                },
+                {
+                    "ResourceType": "AWS::IAM::User",
+                    "ResourceName": "target"
+                }
+            ],
+            "CloudTrailEvent": "{\"eventVersion\":\"1.09\",\"userIdentity\":{\"type\":\"IAMUser\",\"principalId\":\"AIDA47CRYYD4QENLSZOVY\",\"arn\":\"arn:aws:iam::891377205497:user/lgbya\",\"accountId\":\"891377205497\",\"accessKeyId\":\"AKIA47CRYYD4WWHOA2UT\",\"userName\":\"lgbya\"},\"eventTime\":\"2024-09-14T02:12:20Z\",\"eventSource\":\"iam.amazonaws.com\",\"eventName\":\"CreateAccessKey\",\"awsRegion\":\"us-east-1\",\"sourceIPAddress\":\"211.212.221.147\",\"userAgent\":\"Boto3/1.35.15 md/Botocore#1.35.15 ua/2.0 os/macos#24.0.0 md/arch#arm64 lang/python#3.12.4 md/pyimpl#CPython cfg/retry-mode#adaptive Botocore/1.35.15\",\"requestParameters\":{\"userName\":\"target\"},\"responseElements\":{\"accessKey\":{\"userName\":\"target\",\"accessKeyId\":\"AKIA47CRYYD4YVUOS3T3\",\"status\":\"Active\",\"createDate\":\"Sep 14, 2024 2:12:20 AM\"}},\"requestID\":\"a2a5ec2a-6c9c-4dd4-9378-dcde77a29b18\",\"eventID\":\"e01ab5a1-4402-4ca6-b2a9-a696e976712e\",\"readOnly\":false,\"eventType\":\"AwsApiCall\",\"managementEvent\":true,\"recipientAccountId\":\"891377205497\",\"eventCategory\":\"Management\",\"tlsDetails\":{\"tlsVersion\":\"TLSv1.3\",\"cipherSuite\":\"TLS_AES_128_GCM_SHA256\",\"clientProvidedHostHeader\":\"iam.amazonaws.com\"}}"
+        },
+        {
+            "EventId": "2f2e612e-07e6-484e-9a4a-67018a836cad",
+            "EventName": "CreateAccessKey",
+            "ReadOnly": "false",
+            "AccessKeyId": "AKIA47CRYYD4WWHOA2UT",
+            "EventTime": 1726279939.0,
+            "EventSource": "iam.amazonaws.com",
+            "Username": "lgbya",
+            "Resources": [
+                {
+                    "ResourceType": "AWS::IAM::AccessKey",
+                    "ResourceName": "AKIA47CRYYD47EILL5NO"
+                },
+                {
+                    "ResourceType": "AWS::IAM::User",
+                    "ResourceName": "lgbya"
+                }
+            ],
+            "CloudTrailEvent": "{\"eventVersion\":\"1.09\",\"userIdentity\":{\"type\":\"IAMUser\",\"principalId\":\"AIDA47CRYYD4QENLSZOVY\",\"arn\":\"arn:aws:iam::891377205497:user/lgbya\",\"accountId\":\"891377205497\",\"accessKeyId\":\"AKIA47CRYYD4WWHOA2UT\",\"userName\":\"lgbya\"},\"eventTime\":\"2024-09-14T02:12:19Z\",\"eventSource\":\"iam.amazonaws.com\",\"eventName\":\"CreateAccessKey\",\"awsRegion\":\"us-east-1\",\"sourceIPAddress\":\"211.212.221.147\",\"userAgent\":\"Boto3/1.35.15 md/Botocore#1.35.15 ua/2.0 os/macos#24.0.0 md/arch#arm64 lang/python#3.12.4 md/pyimpl#CPython cfg/retry-mode#adaptive Botocore/1.35.15\",\"requestParameters\":{\"userName\":\"lgbya\"},\"responseElements\":{\"accessKey\":{\"userName\":\"lgbya\",\"accessKeyId\":\"AKIA47CRYYD47EILL5NO\",\"status\":\"Active\",\"createDate\":\"Sep 14, 2024 2:12:19 AM\"}},\"requestID\":\"a35880a0-a29d-49db-bad2-867d836ffcd0\",\"eventID\":\"2f2e612e-07e6-484e-9a4a-67018a836cad\",\"readOnly\":false,\"eventType\":\"AwsApiCall\",\"managementEvent\":true,\"recipientAccountId\":\"891377205497\",\"eventCategory\":\"Management\",\"tlsDetails\":{\"tlsVersion\":\"TLSv1.3\",\"cipherSuite\":\"TLS_AES_128_GCM_SHA256\",\"clientProvidedHostHeader\":\"iam.amazonaws.com\"}}"
+        },
+        {
+            "EventId": "173e0618-25d2-4b07-bf38-3bea7bf7ab72",
+            "EventName": "ListRoles",
+            "ReadOnly": "true",
+            "AccessKeyId": "AKIA47CRYYD4WWHOA2UT",
+            "EventTime": 1726279938.0,
+            "EventSource": "iam.amazonaws.com",
+            "Username": "lgbya",
+            "Resources": [],
+            "CloudTrailEvent": "{\"eventVersion\":\"1.09\",\"userIdentity\":{\"type\":\"IAMUser\",\"principalId\":\"AIDA47CRYYD4QENLSZOVY\",\"arn\":\"arn:aws:iam::891377205497:user/lgbya\",\"accountId\":\"891377205497\",\"accessKeyId\":\"AKIA47CRYYD4WWHOA2UT\",\"userName\":\"lgbya\"},\"eventTime\":\"2024-09-14T02:12:18Z\",\"eventSource\":\"iam.amazonaws.com\",\"eventName\":\"ListRoles\",\"awsRegion\":\"us-east-1\",\"sourceIPAddress\":\"211.212.221.147\",\"userAgent\":\"Boto3/1.35.15 md/Botocore#1.35.15 ua/2.0 os/macos#24.0.0 md/arch#arm64 lang/python#3.12.4 md/pyimpl#CPython cfg/retry-mode#adaptive Botocore/1.35.15\",\"errorCode\":\"AccessDenied\",\"errorMessage\":\"User: arn:aws:iam::891377205497:user/lgbya is not authorized to perform: iam:ListRoles on resource: arn:aws:iam::891377205497:role/ because no identity-based policy allows the iam:ListRoles action\",\"requestParameters\":null,\"responseElements\":null,\"requestID\":\"76a318ab-bc5a-4373-b3dc-0be2f3a348e4\",\"eventID\":\"173e0618-25d2-4b07-bf38-3bea7bf7ab72\",\"readOnly\":true,\"eventType\":\"AwsApiCall\",\"managementEvent\":true,\"recipientAccountId\":\"891377205497\",\"eventCategory\":\"Management\",\"tlsDetails\":{\"tlsVersion\":\"TLSv1.3\",\"cipherSuite\":\"TLS_AES_128_GCM_SHA256\",\"clientProvidedHostHeader\":\"iam.amazonaws.com\"}}"
+        },
+        {
+            "EventId": "3d412cb1-70c2-4e1d-b1bb-2d0c0638b302",
+            "EventName": "ListGroups",
+            "ReadOnly": "true",
+            "AccessKeyId": "AKIA47CRYYD4WWHOA2UT",
+            "EventTime": 1726279938.0,
+            "EventSource": "iam.amazonaws.com",
+            "Username": "lgbya",
+            "Resources": [],
+            "CloudTrailEvent": "{\"eventVersion\":\"1.09\",\"userIdentity\":{\"type\":\"IAMUser\",\"principalId\":\"AIDA47CRYYD4QENLSZOVY\",\"arn\":\"arn:aws:iam::891377205497:user/lgbya\",\"accountId\":\"891377205497\",\"accessKeyId\":\"AKIA47CRYYD4WWHOA2UT\",\"userName\":\"lgbya\"},\"eventTime\":\"2024-09-14T02:12:18Z\",\"eventSource\":\"iam.amazonaws.com\",\"eventName\":\"ListGroups\",\"awsRegion\":\"us-east-1\",\"sourceIPAddress\":\"211.212.221.147\",\"userAgent\":\"Boto3/1.35.15 md/Botocore#1.35.15 ua/2.0 os/macos#24.0.0 md/arch#arm64 lang/python#3.12.4 md/pyimpl#CPython cfg/retry-mode#adaptive Botocore/1.35.15\",\"errorCode\":\"AccessDenied\",\"errorMessage\":\"User: arn:aws:iam::891377205497:user/lgbya is not authorized to perform: iam:ListGroups on resource: arn:aws:iam::891377205497:group/ because no identity-based policy allows the iam:ListGroups action\",\"requestParameters\":null,\"responseElements\":null,\"requestID\":\"7911bff9-731c-4a5e-afdb-f3fb4f17873f\",\"eventID\":\"3d412cb1-70c2-4e1d-b1bb-2d0c0638b302\",\"readOnly\":true,\"eventType\":\"AwsApiCall\",\"managementEvent\":true,\"recipientAccountId\":\"891377205497\",\"eventCategory\":\"Management\",\"tlsDetails\":{\"tlsVersion\":\"TLSv1.3\",\"cipherSuite\":\"TLS_AES_128_GCM_SHA256\",\"clientProvidedHostHeader\":\"iam.amazonaws.com\"}}"
+        }
+    ]
+}
